@@ -1,0 +1,7 @@
+mkdir docs
+cd docs
+echo "" > .gitkeep
+cd ..
+git add docs/.gitkeep
+git commit -m "Add docs folder with .gitkeep"
+git push
